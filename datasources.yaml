@@ -1,0 +1,9 @@
+# datasources.yaml
+apiVersion: 1
+
+datasources:
+  - name: JSON
+    type: grafana-simple-json-datasource
+    access: proxy
+    url: http://localhost:3000
+    isDefault: true
